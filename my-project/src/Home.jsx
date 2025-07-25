@@ -17,6 +17,11 @@ function Home() {
             name: "GOAT",
             rate: "10.0",
             link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRipTGRaK86PV59fapOkLygK43WxuJZYpAfkQ&s"
+        },
+        {
+            name: "Solo Leveling",
+            rate: "10.0",
+            link: "https://tse2.mm.bing.net/th/id/OIP.QmpvCJM8_Ab5IqqdO8yfkgHaKo?rs=1&pid=ImgDetMain&o=7&rm=3"
         }
     ]);
 
@@ -26,7 +31,7 @@ function Home() {
             rate: "10.0",
             link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRipTGRaK86PV59fapOkLygK43WxuJZYpAfkQ&s"
         };
-        setMovies([...movies, newMovie]); // adds the new movie to the existing list
+        setMovies([...movies, newMovie]);
     };
 
     return (
